@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card:hover {
+    filter: drop-shadow(0 0 12px rgba(248, 243, 243, 0.801));
+  }
+  .card2:hover {
+    filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.801));
+    
+  }
+  
+
+  
+  .card:hover > .imgcircle {
+    background: linear-gradient(to top right, #8bbaef,#2b84ea);
+  }
+  .card2:hover > .imgcircle2 {
+    background: linear-gradient(to top right, rgb(117, 6, 197),#2b84ea);
+  }
+  
+  .card:hover > .zigzag {
+    opacity: 1;
+    z-index: 100;
+  }
+
+  .card2:hover > .zigzag {
+    opacity: 1;
+    z-index: 100;
+  }
+  
+
+  
+  .darkshadow:hover {
+    filter: drop-shadow(0 0 16px rgba(229, 231, 240, 0.63));
+  }
+  .darkshadow2:hover {
+    filter: drop-shadow(0 0 16px rgba(0,0 , 0, 0.63));
+  }
+  
+
+  .coreFeatureSection{
+    background-size:100% 100%;
+    
+    padding-bottom: 6rem;
+
+  }
+
+  .companies-list{
+    animation: ani  12s linear infinite ;
+  }
+  @keyframes ani {
+    0%{
+      top:0%;
+    }
+    50%{
+      
+      top:-170%;
+      
+      
+    }
+    
+    
+    
+  }
+  .ctasection{
+    background-size: 100% 100%;
+  }
